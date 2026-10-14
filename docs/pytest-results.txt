@@ -1,0 +1,14 @@
+============================= test session starts ==============================
+platform linux -- Python 3.12.14, pytest-8.4.2, pluggy-1.6.0 -- /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python
+cachedir: .pytest_cache
+rootdir: /workspace/scratch/d7c8da5a6794/patient_appointments
+configfile: pytest.ini
+testpaths: tests
+collecting ... collected 45 items
+
+tests/test_app.py::test_ui_required_fields PASSED                        [  2%]
+tests/test_app.py::test_ui_full_booking_workflow PASSED                  [  4%]
+tests/test_app.py::test_ui_doctor_switch_and_closed_day PASSED           [  6%]
+tests/test_app.py::test_ui_stale_slot_returns_to_calendar PASSED         [  8%]
+tests/test_app.py::test_ui_calendar_callback_and_date_picker_do_not_replay_old_click PASSED [ 11%]
+tests/test_app.py::test_ui_edit_patient_keeps_saved_details 
